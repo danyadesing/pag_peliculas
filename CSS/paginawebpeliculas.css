@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: #ee7327;
+    position: relative;
+   
+}
+
+.m{
+    height: 100px;
+    width: 100px;
+    
+}
+
+h2 {
+    justify-content: center;
+    color: #ffffff;
+    font-size: 30pt;
+    text-align: center;
+    font-family: "Staatliches", serif;
+    font-style: normal;
+}
+
+.logo img {
+    width: 290px;
+    height: 75px;
+    margin: 10px;
+}
+
+body {
+    background-color: #13101f;
+}
+
+.cajamenu  {
+    color: #ffffff;
+    justify-content: left;
+    font-family: "Staatliches", serif;
+    font-weight: white;
+    font-size: 15pt;
+    font-style: normal;
+    padding: 15px;
+    margin: 10px;
+
+}
+
+.container {
+    height: 1500px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 228px);
+    grid-template-rows: repeat(6, 286px);
+    gap: 5px;
+    justify-content: right;
+    align-content: space-evenly;
+    background-color: #13101f;
+}
+
+.cajas {
+    height: 280px;
+    width: 220px;
+    background-color: #9ff83f;
+    border: none;
+    border-radius: 5px;
+}
+
+.post {
+    height: 280px;
+    width: 220px;
+}
+
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color: #13101f;
+}
